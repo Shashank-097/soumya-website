@@ -4,7 +4,7 @@ import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import React from "react";
 
-export default function Footer(): jsx.Element {
+export default function Footer(): JSX.Element {
   const lightGrey = "#d1d1d1";
 
   const quickLinks = [
