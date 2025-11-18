@@ -2,7 +2,7 @@
 
 import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import React from "react";
+import React, { JSX } from "react";
 
 export default function Footer(): JSX.Element {
   const lightGrey = "#d1d1d1";
@@ -30,7 +30,7 @@ export default function Footer(): JSX.Element {
   ];
 
   return (
-    <footer className="relative bg-gradient-to-br from-[#151515] via-[#1b1b1b] to-[#2a2a2a] text-gray-300 py-16 px-8 md:px-20 border-t border-gray-700/40">
+    <footer className="relative bg-linear-to-br from-[#151515] via-[#1b1b1b] to-[#2a2a2a] text-gray-300 py-16 px-8 md:px-20 border-t border-gray-700/40">
       {/* === Top Section === */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* === About Column === */}

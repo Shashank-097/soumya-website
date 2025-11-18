@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import ClientSlider from "./components/ClientSlider";
 import About from "./components/About";
 import Research from "./components/Research";
 
@@ -9,6 +10,7 @@ export default function HomePage() {
   return (
     <SmoothScroll>
       <Hero />
+      <ClientSlider />
       <About />
       <Research/>
       <Footer/>

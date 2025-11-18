@@ -55,7 +55,7 @@ export default function Blog() {
   return (
     <section
       ref={ref}
-      className="relative min-h-screen bg-gradient-to-br from-[#151515] via-[#1b1b1b] to-[#2a2a2a] py-28 px-6 md:px-16 text-gray-100"
+      className="relative min-h-screen bg-linear-to-br from-[#151515] via-[#1b1b1b] to-[#2a2a2a] py-28 px-6 md:px-16 text-gray-100"
     >
       {/* === Header === */}
       <motion.div
